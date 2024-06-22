@@ -6,7 +6,7 @@ cd .cache || exit 1
 if [ ! -f google-java-format-"$GOOGLE_JAVA_FORMAT_VERSION"-all-deps.jar ]
 then
   curl -LJO "https://github.com/google/google-java-format/releases/download/v$GOOGLE_JAVA_FORMAT_VERSION/google-java-format-$GOOGLE_JAVA_FORMAT_VERSION-all-deps.jar"
-  chmod 755 google-java-format-1.7-all-deps.jar
+  chmod 755 google-java-format-"$GOOGLE_JAVA_FORMAT_VERSION"-all-deps.jar
 fi
 if [ ! -f google-java-format-diff.py ]
 then
