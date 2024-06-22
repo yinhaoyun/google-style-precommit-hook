@@ -8,7 +8,7 @@ then
 fi
 if [ ! -f google-java-format-diff.py ]
 then
-    curl -LJO "https://raw.githubusercontent.com/google/google-java-format/master/scripts/google-java-format-diff.py"
+    curl -LJO "https://raw.githubusercontent.com/google/google-java-format/v1.22.0/scripts/google-java-format-diff.py"
     chmod 755 google-java-format-diff.py
 fi
 cd ..
